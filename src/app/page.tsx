@@ -37,9 +37,9 @@ export default async function Home() {
   return (
     <main>
       <Hero data={blocks[0]} />
-      <OurStaff data={blocks[1]} />
       <AboutUs data={blocks[2]} />
       <Benefits data={blocks[3]} />
+      <OurStaff data={blocks[1]} />
       <Banner data={blocks[4]} />
     </main>
   );
